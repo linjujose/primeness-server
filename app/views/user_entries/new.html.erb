@@ -1,0 +1,22 @@
+<h1>Enter a number to see if it is prime or not</h1>
+
+<p style = "color:blue">
+  <%= notice %>
+</p>
+
+<%= form_with model: @entry, method: :post do |f| %>
+<p>
+  <%= f.label 'Enter an integer' %><br>
+  <%= f.text_field :user_number %>
+</p>
+
+<p>
+  <%= f.submit 'Check' %>
+</p>
+
+<% end %>
+
+
+<p>
+    <%= link_to "Help", help_path %>
+</p>
