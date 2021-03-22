@@ -91,4 +91,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  config.web_socket_server_url = "wss://primeness-server.herokuapp.com/cable"
+  config.action_cable.allowed_request_origins = ['http://primeness-server.herokuapp.com/', 'https://primeness-server.herokuapp.com/']
 end
