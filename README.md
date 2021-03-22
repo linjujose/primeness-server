@@ -12,4 +12,11 @@ Notes:
 
 * Gem dependency - 'rails-controller-testing'
 
-* Run DB migrations
+* Deployment steps
+    * Install ruby langugage and rails gem
+    * Add the above gem and run bundle install
+    * Run DB migrations using rails db:migrate
+
+Try the app on heroku:
+
+http://primeness-server.herokuapp.com/
