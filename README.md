@@ -12,4 +12,4 @@ Notes:
 
 * Gem dependency - 'rails-controller-testing'
 
-* Deployment instructions
+* Run DB migrations
